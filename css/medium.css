@@ -1,0 +1,6 @@
+@media (min-width: 32.5em) {
+   #content header div img {float: right;}
+}
+@media (min-width: 32.5em) {
+   footer {color: aquamarine;}
+}
