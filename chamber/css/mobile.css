@@ -67,23 +67,23 @@ main div {
     margin-right: .75em;
 }
 
-.navigation div{
+/* Displaying the hamburger menu, toggling it on and off */
+.navigation {
     display: none;
 }
-
-.responsive {
+.navigation.responsive {
     display: block;
     position:absolute;
     right: 1em;
     top: 9em;
     background-color: #bdd1a9;
 }
-.responsive a {
+.navigation.responsive a {
     padding: 1em;
     right: 1em;
     font-size: 10pt;
 }
-.responsive :hover {
+.navigation.responsive :hover {
     background-color: #f5f5dc;
 }
 
