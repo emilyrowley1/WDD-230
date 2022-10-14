@@ -1,15 +1,31 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'ABeeZee', sans-serif;
+    text-align: center;
+}
 main {
     background-color: aquamarine;
     margin: 1em;
     padding: 1em;
 }
-.chapters {
+
+main div {
     padding: 2em;
-    margin: 2em;
-    background-color: aquamarine;
-    border: solid;
 }
-form {
-    padding: 2em;
-    text-align: center;
+main ul {
+    border: solid;
+    padding: 0em;
+}
+main ul li {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    list-style: none;
+    margin: 1em;
+}
+
+li button {
+    font-weight: bold;
+    color: red;
+    
 }
