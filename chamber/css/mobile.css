@@ -61,15 +61,14 @@ main div {
     display: none;
 }
 
-#menu a{
-    color:red;
-    background-color: red;
-
+#menu {
+    text-align: right;
+    font-size: x-large;
+    margin-right: .75em;
 }
 
-.navigation :not(:first-child){
+.navigation div{
     display: none;
-    position: absolute;
 }
 
 .responsive {
@@ -77,9 +76,14 @@ main div {
     position:absolute;
     right: 1em;
     top: 9em;
+    background-color: #bdd1a9;
 }
 .responsive a {
     padding: 1em;
     right: 1em;
+    font-size: 10pt;
+}
+.responsive :hover {
+    background-color: #f5f5dc;
 }
 
