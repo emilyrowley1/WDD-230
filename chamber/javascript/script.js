@@ -27,10 +27,16 @@ function getDate(){
     document.querySelector('.date').innerHTML = `${weekday}, ${day} ${month} ${year}`;
 }
 
+function copyright(){
+    const date = new Date().getFullYear();
+    document.querySelector("#copyright").innerHTML = "&copy" + date + " Santaquin Chamber";
+}
+
 function main()
 {
     getDate();
     toggleMenu();
+    copyright();
 }
 
 main();
