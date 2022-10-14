@@ -32,11 +32,17 @@ function copyright(){
     document.querySelector("#copyright").innerHTML = "&copy" + date + " Santaquin Chamber";
 }
 
+function lastModified(){
+    const modified = document.lastModified;
+    document.querySelector("#lastmodification").innerHTML = "Last Modification " + modified;
+}
+
 function main()
 {
     getDate();
     toggleMenu();
     copyright();
+    lastModified();
 }
 
 main();
