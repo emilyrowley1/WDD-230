@@ -1,8 +1,10 @@
 body {
     font-family: 'ABeeZee', sans-serif;
     color: #3f3f3f;
-    font-size: 5pt;
+    font-size: 7pt;
 }
+
+/* Styling for the header */
 header {
     display: grid;
     padding: 0;
@@ -13,31 +15,80 @@ header {
 }
 h1 {
     margin-top: 0;
+    font-size: 12pt;
 }
 
 .socialMedia {
     text-align: right;
 }
-
 nav a {
     text-decoration: none;
     display: block;
     text-align: center;
     padding: 1rem;
     color: #3f3f3f;
-    font-weight: 1000;
-}
-footer{
-    background-color: #7ca453;
-    padding: 1rem;
-    text-align: center;
-}
-main {
-    padding: 1rem;
+    font-weight: 600;
 }
 a:hover {
     background-color: #e0ffb1;
 }
+.date {
+    grid-column: 1 /5;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 12px;
+    margin: 1em;
+    background-color: #add681;
+}
+/* styling for social media icons */
+.fa {
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+}
+.fa-facebook {
+    background: #3B5998;
+    padding: 1em 0em 1em 0em;
+    color: white;    
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    padding: 1em 0em 1em 0em;
+    
+  }
+
+/* Displaying the hamburger menu, toggling it on and off */
+#menu {
+    text-align: right;
+    font-size: x-large;
+    margin-right: .75em;
+}
+.navigation {
+    display: none;
+}
+.navigation.responsive {
+    display: block;
+    position:absolute;
+    right: 1em;
+    top: 9em;
+    background-color: #add681;
+}
+.navigation.responsive a {
+    padding: 1em;
+    right: 1em;
+    font-size: 10pt;
+}
+.navigation.responsive :hover {
+    background-color: #f5f5dc;
+}
+
+
+/* Styling for the body */
 main div {
     display: grid;
     padding: 1em 5em 10em 5em;
@@ -61,29 +112,12 @@ main div {
     display: none;
 }
 
-#menu {
-    text-align: right;
-    font-size: x-large;
-    margin-right: .75em;
-}
 
-/* Displaying the hamburger menu, toggling it on and off */
-.navigation {
-    display: none;
-}
-.navigation.responsive {
-    display: block;
-    position:absolute;
-    right: 1em;
-    top: 9em;
-    background-color: #bdd1a9;
-}
-.navigation.responsive a {
-    padding: 1em;
-    right: 1em;
-    font-size: 10pt;
-}
-.navigation.responsive :hover {
-    background-color: #f5f5dc;
+
+/* Styling for the footer */
+footer{
+    background-color: #7ca453;
+    padding: 1rem;
+    text-align: center;
 }
 
