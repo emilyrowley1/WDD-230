@@ -7,22 +7,27 @@
     <meta name="description" content="Chamber of Commerce website for Santaquin, Utah">
     <title>Santaquin Chamber of Commerce</title>
     <link rel="stylesheet" href="css/mobile.css">
-
+    <script src="javascript/script.js"></script>
 </head>
 <body>
     <header>
         <div><img src="images/logo-dark-background-small.png" alt="Santaquin City Logo"></div>
         <div><h1>Santaquin City Chamber of Commerce</h1></div>
-        <nav>
-            <div><a href="index.html">Home</a></div>
-            <div><a href="target-audience.html">Target Audience</a></div>
-            <div><a href="color-scheme.html">Color Scheme</a></div>
-            <div><a href="typography.html">Typography</a></div>
-        </nav>
+        <div class="socialMedia">Social media links</div>
+        <div id="menu"><a href="#" onclick="toggleMenu()">&#9776</a>
+            <nav class="responsive">
+                <div><a href="index.html">Home</a></div>
+                <div><a href="target-audience.html">Target Audience</a></div>
+                <div><a href="color-scheme.html">Color Scheme</a></div>
+                <div><a href="typography.html">Typography</a></div>
+            </nav>
+        </div>
     </header>
 
     <main>
         <div class="hero">Hero with site name and call to action</div>
+        <div class="event">Event</div>
+        <div class="weather">Weather</div>
         <div class="news">News Release</div>
         <div class="spotlight">
             <div id="spotlight1">Spotlight 1</div>
@@ -30,8 +35,6 @@
             <div id="spotlight3">Spotlight 3</div>
         </div>
         <div class="join">Join</div>
-        <div class="event">Event</div>
-        <div class="weather">Weather</div>
     </main>
     <footer>
         <div>
@@ -46,6 +49,7 @@
                 <p>location</p>
             </div>
         </div>
+        <hr>
         <div>
             <div>&copy some java Santaquin | </div>
             <div>Emily Wayment | </div>

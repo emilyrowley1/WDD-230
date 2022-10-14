@@ -1,0 +1,15 @@
+main {
+    background-color: aquamarine;
+    margin: 1em;
+    padding: 1em;
+}
+.chapters {
+    padding: 2em;
+    margin: 2em;
+    background-color: aquamarine;
+    border: solid;
+}
+form {
+    padding: 2em;
+    text-align: center;
+}
