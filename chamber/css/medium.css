@@ -1,3 +1,4 @@
+@media screen and (min-width: 450px){
 body {
     font-family: 'ABeeZee', sans-serif;
     color: #3f3f3f;
@@ -89,41 +90,103 @@ a:hover {
 
 
 /* Styling for the body */
-main div {
-    display: grid;
-    padding: 1em 5em 10em 5em;
-    background-color: beige;
-    margin: 1em;
-    text-align: center;
-}
+
 .spotlight {
-    padding-top: 5em;
-    padding-bottom: 5em;
-}
-#spotlight3 {
-    display: none;
+  grid-area: spotlight;
+  padding: 2em;
 }
 .spotlight div {
-    border: solid;
-    border-width: 1px;
-    margin: 0em;
+  border: solid;
+  border-width: 1px;
+  margin: 0em;
+}
+
+.hero {
+  grid-area: hero;
+}
+.event {
+  grid-area: event;
+}
+.weather {
+  grid-area: weather;
 }
 .join {
-    display: none;
+  display: block;
+  grid-area: join;
+}
+.news {
+  grid-area: news;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)); 
+  grid-template-areas:
+  "hero hero hero"
+  "news news news"
+  "spotlight spotlight spotlight"
+  "join join join"
+  "event event weather";
 }
 
-
+main div {
+    padding: 1em 5em 10em 5em;
+    background-color: beige;
+    margin: .5em;
+    text-align: center;
+}
 
 /* Styling for the footer */
+#logo {
+    grid-area: image;
+    padding-left: 2em;
+}
+#title {
+    grid-area: title;
+    grid-column: 2 / span 2;
+}
+#break {
+    grid-area: break;
+    grid-column: span 2 / span 3;
+}
+#contact {
+    grid-area: contact;
+}
+#info {
+    grid-area: other;
+}
+#copyright {
+    grid-area: copyright;
+}
+#lastmodification {
+    grid-area: lastmod;
+}
+#name {
+    grid-area: name;
+}
+#project {
+    grid-area: project;
+}
+
 footer{
+    display: grid;
+    grid-template-areas: 
+    "image title title contact"
+    "break break break break"
+    "copyright name project lastmod";
+
     background-color: #7ca453;
     padding: 1rem;
     text-align: center;
+    align-items: center;
 }
+
+
+
 #name {
-    font-size: 9pt;
+    font-weight: 600;
 }
 footer div div a {
     text-decoration: none;
     color: #3f3f3f;
+} 
 }
