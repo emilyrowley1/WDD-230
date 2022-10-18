@@ -111,7 +111,9 @@ main div {
 .join {
     display: none;
 }
-
+.hero img {
+    display: none;
+}
 
 
 /* Styling for the footer */
