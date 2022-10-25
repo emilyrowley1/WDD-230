@@ -86,12 +86,15 @@ a:hover {
 .navigation.responsive :hover {
     background-color: #f5f5dc;
 }
+.navigation div:first-child {
+    display: none;
+}
 
 
 /* Styling for the body */
 main div {
     display: grid;
-    padding: 1em 5em 10em 5em;
+    padding: 1em 5em 1em 5em;
     background-color: beige;
     margin: 1em;
     text-align: center;
@@ -112,7 +115,29 @@ main div {
     display: none;
 }
 .hero img {
-    display: none;
+    width: 100%;
+    height: 100%;
+}
+.hero p {
+    position: absolute;
+    right: 13rem;
+}
+.hero {
+    padding: 0;
+}
+.weather {
+    height: 200px;
+}
+/* #box {
+    border: solid;
+    padding: 0%;
+    position: absolute;
+    left: 3em;
+} */
+.weather div {
+    margin: 0%;
+    padding: 0%;
+   
 }
 
 
