@@ -14,7 +14,7 @@ function setWindchill(temp, windspeed){
     }
 
     let windmesage = `Windspeed: ${windspeed}`;
-    let tempmessage = `Temperature: ${temp}&deg; F`;
+    let tempmessage = `${temp}&deg; F`;
 
     tempobj.innerHTML = tempmessage;
     windspeedobj.innerHTML = windmesage;

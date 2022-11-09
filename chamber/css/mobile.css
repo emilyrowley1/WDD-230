@@ -1,7 +1,7 @@
 body {
     font-family: 'ABeeZee', sans-serif;
     color: #3f3f3f;
-    font-size: 7pt;
+    font-size: 10pt;
 }
 
 /* Styling for the header */
@@ -109,19 +109,40 @@ main div {
 .hero {
     padding: 0;
 }
-.weather {
-    height: 200px;
-}
-/* #box {
-    border: solid;
-    padding: 0%;
-    position: absolute;
-    left: 3em;
-} */
+
 .weather div {
     margin: 0%;
     padding: 0%;
    
+}
+
+.weather {
+    grid-area: weather;
+    display: grid;
+    grid-template-areas: 
+    "title title"
+    "image temp"
+    "windspeed windspeed"
+    "windchill windchill";
+    padding: 2em 7em;
+}
+.weather img {
+    width: 90px;
+    grid-area: image;
+}
+.weather div:first-child {
+    grid-area: title;
+}
+#temperature {
+    grid-area: temp;
+    text-align: center;
+    padding: 2em 0em;
+}
+#windspeed {
+    grid-area: windspeed;
+}
+#windchill {
+    grid-area: windchill;
 }
 
 
