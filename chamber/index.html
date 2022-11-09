@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
@@ -20,8 +20,8 @@
         <div><img src="images/logo-dark-background-small.png" alt="Santaquin City Logo"></div>
         <div><h1>Santaquin</h1><h2>City Chamber of Commerce</h2></div>
         <div class="socialMedia">
-            <a href="https://www.facebook.com/" class="fa fa-facebook"> </a>
-            <a href="https://www.linkedin.com/" class="fa fa-linkedin"> </a>
+            <a href="https://www.facebook.com/"><img src="images/facebook2.webp" alt="Facebook Logo"></a>
+            <a href="https://www.instagram.com/"><img src="images/intagram.webp" alt="Instagram Logo"></a>
         </div>
         <div id="menu">&#9776;</div>
 
@@ -38,8 +38,12 @@
 
     <main>
         <div class="hero">
-            <img src="images/blossoms.JPG" alt="Cherry Blossoms in Spring overlooking Santaquin">
-            <p>Hero with site name and call to action</p>
+            <picture>
+                <source srcset="images/blossomsLarge.jpg" media="(min-width: 858px)">Large</source>
+                <source srcset="images/blossomsMedium.jpg" media="(min-width: 450px) and (max-width: 857px)">Medium</source>
+                <img src="images/blossomsMobile.jpg" alt="Cherry Blossoms in Spring overlooking Santaquin">
+            </picture>
+            <button>Join!</button>
         </div>
         <div class="event">Event</div>
         <div class="weather">

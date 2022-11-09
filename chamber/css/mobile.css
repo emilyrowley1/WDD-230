@@ -29,9 +29,7 @@ nav a {
     color: #3f3f3f;
     font-weight: 600;
 }
-a:hover {
-    background-color: #e0ffb1;
-}
+
 .date {
     grid-column: 1 /5;
     text-align: center;
@@ -41,26 +39,8 @@ a:hover {
     margin: 1em;
     background-color: #add681;
 }
-/* styling for social media icons */
-.fa {
-    padding: 20px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 10%;
-}
-.fa-facebook {
-    background: #3B5998;
-    padding: 1em 0em 1em 0em;
-    color: white;    
-}
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-    padding: 1em 0em 1em 0em;
-    
-  }
+
+
 
 /* Displaying the hamburger menu, toggling it on and off */
 #menu {
@@ -88,6 +68,10 @@ a:hover {
 }
 .navigation div:first-child {
     display: none;
+}
+
+.socialMedia img{
+    height: 25px;
 }
 
 

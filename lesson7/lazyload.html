@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        picture img{
+            transition: 3s;
+        }
+
+        picture img[data-src] {
+            filter: blur(0.1em);
+            width: 300px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>LazyLoading Example</h1>
+    <picture>
+        <img src="images/placeholder.jpg" data-src="./images/blue-gingham.png" alt="Some alt text">
+    </picture>
+    <picture>
+        <img src="images/placeholder.jpg" data-src="./images/blue-gingham.png" alt="Some alt text">
+    </picture>
+    <picture>
+        <img src="images/placeholder.jpg" data-src="./images/blue-gingham.png" alt="Some alt text">
+    </picture>
+    <picture>
+        <img src="images/placeholder.jpg" data-src="./images/blue-gingham.png" alt="Some alt text">
+    </picture>
+    <picture>
+        <img src="images/placeholder.jpg" data-src="./images/blue-gingham.png" alt="Some alt text">
+    </picture>
+    <script>
+        // Gather the images to load
+        let imagesToLoad = document.querySelectorAll("img[data-src]");
+
+        // Set up the load images function which swithces the src and the data-src attributes
+        const loadImages = (image) => {
+            image.setAttribute("src", image.getAttribute("data-src"));
+            image.onload = () => {
+                image.removeAttribute("data-src");
+            };
+        };
+
+        // Load all the images
+        // imagesToLoad.forEach((img) => {
+        //     loadImages(img);
+        // });
+
+        // Add an intersection observer if supported by the browser
+        if ("IntersectionObserver" in window) {
+            const observer = new IntersectionObserver((items, observer) => {
+                items.forEach((item) => {
+                    if (item.isIntersecting) {
+                        loadImages(item.target);
+                        observer.unobserve(item.target);
+                    }
+                });
+            });
+
+            imagesToLoad.forEach((img) => {
+                observer.observe(img);
+            })
+        }
+
+        else {
+            imagesToLoad.forEach((img) => {
+                loadImages(img);
+            });
+        }
+    </script>
+</body>
+</html>
