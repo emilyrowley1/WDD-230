@@ -2,8 +2,9 @@ var latitude;
 var longitude; 
 
 const apiKey = "92ef2c5b8806f2d76490197a905975e8";
-const locationURL = "http://api.openweathermap.org/geo/1.0/direct?q=santaquin,ut,usa&appid=92ef2c5b8806f2d76490197a905975e8";
 const getCoordinates = async () => {
+    const locationURL = "http://api.openweathermap.org/geo/1.0/direct?q=santaquin,ut,usa&appid=92ef2c5b8806f2d76490197a905975e8";
+
     const response = await fetch(locationURL);
     jsObject = await response.json();
 
