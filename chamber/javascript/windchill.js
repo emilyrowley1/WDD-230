@@ -6,7 +6,6 @@ const locationURL = "http://api.openweathermap.org/geo/1.0/direct?q=santaquin,ut
 const getCoordinates = async () => {
     const response = await fetch(locationURL);
     jsObject = await response.json();
-    console.log(jsObject);
 
     latitude = jsObject[0]["lat"];
     longitude = jsObject[0]["lon"];
@@ -20,6 +19,9 @@ const getWeather = async () => {
     // change the response to a json object
     const response = await fetch(apiURL);
     jsObject = await response.json();
+
+    // setting the current conditions
+    document.querySelector("#conditions").innerHTML = jsObject["weather"][0]["main"];
     
     // setting the icon to the correct src
     const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
@@ -46,7 +48,7 @@ const getWeather = async () => {
         windchillmsg = `Windchill: ${chill}&deg; F`;
     }
 
-    let windmesage = `Windspeed: ${windspeed} mph`;
+    let windmesage = `${windspeed}mph Wind`;
     let tempmessage = `${temp}&deg; F`;
 
     tempobj.innerHTML = tempmessage;

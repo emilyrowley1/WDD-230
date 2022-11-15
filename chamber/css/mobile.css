@@ -122,6 +122,7 @@ main div {
     grid-template-areas: 
     "title title"
     "image temp"
+    "conditions conditions"
     "windspeed windspeed"
     "windchill windchill";
     padding: 2em 7em;
@@ -132,6 +133,9 @@ main div {
 }
 .weather div:first-child {
     grid-area: title;
+}
+#conditions {
+    grid-area: conditions;
 }
 #temperature {
     grid-area: temp;
