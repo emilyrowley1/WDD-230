@@ -1,7 +1,22 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Open Sans';
     text-align: center;
+    color: #4d4d96;
+    font-style: normal;
 }
 section {
     background-color: #b9b9cc;
+    border: solid;
+    border-color: #4d4d96;
+    margin: .5rem;
+    width: 275px;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 50%;
 }
