@@ -22,6 +22,8 @@ const getWeather = async () => {
     const response = await fetch(apiURL);
     jsObject = await response.json();
 
+    console.log(jsObject);
+
     // setting the current conditions
     document.querySelector("#conditions").innerHTML = jsObject["weather"][0]["main"];
     
