@@ -16,7 +16,8 @@ const getWeather = async () => {
     
     // get the correct place
     await getCoordinates();
-    const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}`;
+    //const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}`;
+    const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=39.9755101&lon=-111.78&appid=${apiKey}`;
     // change the response to a json object
     const response = await fetch(apiURL);
     jsObject = await response.json();
