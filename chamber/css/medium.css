@@ -91,6 +91,7 @@ nav a {
 }
 .weather {
   grid-area: weather;
+  padding: 2em;
 }
 .join {
   display: block;

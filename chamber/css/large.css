@@ -57,7 +57,7 @@
     .navigation {
         display: grid;
         grid-template-areas: 
-        "link1 link2 link3 link4";
+        "link1 link2 link3 link4 link5";
     }
     .navigation a:hover {
         background-color: #add681;
@@ -110,7 +110,7 @@
         "conditions conditions"
         "windspeed windspeed"
         "windchill windchill";
-        padding: 5em;
+        padding: 2em;
     }
     .weather img {
         grid-area: image;

@@ -39,6 +39,10 @@ nav a {
     margin: 1em;
     background-color: #add681;
 }
+#title a{
+    text-decoration: none;
+    color: #3f3f3f;
+}
 
 
 
@@ -125,7 +129,7 @@ main div {
     "conditions conditions"
     "windspeed windspeed"
     "windchill windchill";
-    padding: 2em 7em;
+    padding: 2em;
 }
 .weather img {
     width: 90px;

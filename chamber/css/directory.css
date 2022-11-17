@@ -1,0 +1,41 @@
+.navigation a {
+    text-align: left;
+    padding: 0rem;
+    margin: 0rem;
+}
+.navigation div:first-child {
+    display: contents;
+}
+
+main {
+    background-color: #f5f5dc;
+    text-align: center;
+    display: block;   
+}
+.cards section {
+    width: 300px;
+    background-color: white;
+    margin: 1rem auto;
+    padding: .5rem 0rem;
+    justify-content: center;
+    align-items: center;
+}
+.cards img {
+    max-width: 200px;
+    max-height: 100px;
+}
+@media screen and (min-width: 720px) and (max-width: 860px){
+    .cards {
+        display: flex;
+        flex-wrap: wrap; 
+    }
+}
+@media screen and (min-width: 861px){
+    .cards {
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    .cards section{
+        width: 350px;
+    }
+}

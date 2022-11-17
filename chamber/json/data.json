@@ -1,0 +1,14 @@
+{"businesses":[
+    { "name":"Stringhams True Value", "address":"124 N, UT-198, Santaquin, UT 84655", "phone":"(801) 754-9000", "website":"https://stringhams.shoptruevalue.com/", "logo":"images/truevalue.webp" },
+    { "name":"Cherry Hill Farms", "address":"290 N 400 E St, Santaquin, UT 84655", "phone":"(385) 375-7477", "website":"https://www.cherryhillfarms.com/", "logo":"images/chf.webp" },
+    { "name":"Rowley's Red Barn", "address":"901 S 300 W St, Santaquin, UT 84655", "phone":" (801) 754-5511", "website":"https://rowleysredbarn.com/", "logo":"images/redbarn.webp" },
+    { "name":"Macey's", "address":"110 N 400 E St, Santaquin, UT 84655", "phone":"(801) 925-4058", "website":"https://www.maceys.com/", "logo":"images/maceys.webp" },
+    { "name":"Santaquin Main Street Pizza", "address":"252 W Main St, Santaquin, UT 84655", "phone":"(801) 754-3370", "website":"https://www.mainstpizza.com/", "logo":"images/pizza.webp" },
+    { "name":"Family Dollar", "address":"252 W Main St, Santaquin, UT 84655", "phone":"(385) 422-9109", "website":"https://www.familydollar.com/locations/ut/santaquin/27099/", "logo":"images/familydollar.webp" },
+    { "name":"Jon R Chisholm Family & Cosmetic", "address":"10 S 300 W, Santaquin, UT 84655", "phone":"(801) 754-0678", "website":"http://www.jonchisholmdental.com/", "logo":"images/dentist.webp" },
+    { "name":"Keith Jedd's Pro-Service", "address":"197 W Main St, Santaquin, UT 84655", "phone":"(801) 754-5833", "website":"", "logo":"images/judds.webp" },
+    { "name":"Canyon View Family Medicine - Santaquin", "address":"94 W Main St, Santaquin, UT 84655", "phone":"(801) 754-3122", "website":"https://canyonviewfamilymedicine.com/locations/santaquin/?utm_source=GMBSocialClimb&utm_medium=CanyonViewFamilyMedicine-Santaquin", "logo":"images/canyonview.webp" },
+    { "name":"Santa Queen Drive Inn", "address":"40 E Main St, Santaquin, UT 84655", "phone":"(801) 754-3051", "website":"https://www.thesantaqueen.com/", "logo":"images/santaqueen.webp" },
+    { "name":"Big O Tires", "address":"55 Highland Dr, Santaquin, UT 84655", "phone":"(801) 609-9427", "website":"https://www.bigotires.com/location/UT-Santaquin-84655/044247?utm_source=gmb&utm_medium=local&utm_campaign=websiteCTA&y_source=1_MTM4NjM1NTItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D", "logo":"images/bigo.svg" },
+    { "name":"Einstein Bros. Bagels", "address":"385 E Main St, Santaquin, UT 84655", "phone":"(801) 609-2249", "website":"https://www.einsteinbros.com/", "logo":"images/bagles.webp" }
+  ]}

@@ -10,13 +10,13 @@ fetch(requestURL)
 
     console.log(prophets)
 
-    prophets.forEach(displayProphets);
+    prophets.forEach(displayBusinesses);
   });
 
 console.log(jsObject);
 
 
-function displayProphets(prophet){
+function displayBusinesses(prophet){
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     h2.textContent = `${prophet.name} ${prophet.lastname} - ${prophet.order}`;

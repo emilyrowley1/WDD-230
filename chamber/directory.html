@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/directory.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
@@ -37,31 +38,8 @@
     </header>
 
     <main>
-        <div class="hero">
-            <picture>
-                <source srcset="images/blossomsLarge.jpg" media="(min-width: 858px)">
-                <source srcset="images/blossomsMedium.jpg" media="(min-width: 450px) and (max-width: 857px)">
-                <img src="images/blossomsMobile.jpg" alt="Cherry Blossoms in Spring overlooking Santaquin">
-            </picture>
-            <button>Join!</button>
-        </div>
-        <div class="event">Event</div>
-        <div class="weather">
-                <div><h2>Weather</h2></div>
-                <img id="weatherImg" src="images/weather.webp" alt="Weather Icon">
-                <div id="temperature">temp</div>
-                <div id="conditions">current conditions</div>
-                <div id="windspeed">wind speed</div>
-                <div id="windchill">wind chill</div>
-          
-        </div>
-        <div class="news">News Release</div>
-        <div class="spotlight">
-            <div id="spotlight1">Spotlight 1</div>
-            <div id="spotlight2">Spotlight 2</div>
-            <div id="spotlight3">Spotlight 3</div>
-        </div>
-        <div class="join">Join</div>
+        <h2>Business Directory</h2>
+       <section class="cards"></section>
     </main>
 <footer>
         <img src="images/logo-dark-background-small.webp" alt="Logo" id="logo">
@@ -84,6 +62,6 @@
 
     </footer>
     <script src="javascript/script.js"></script>
-    <script src="javascript/windchill.js"></script>
+    <script src="javascript/directory.js"></script>
 </body>
 </html>
