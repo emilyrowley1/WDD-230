@@ -41,17 +41,15 @@
         <h2>Come join us!</h2>
 
         <form action="/thankyou.html">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="" required><br>
+        <label for="fname">First name: <input type="text" id="fname" name="fname" value="" required><br></label><br>
+        
 
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="" required><br><br>
+        <label for="lname">Last name:<input type="text" id="lname" name="lname" value="" required><br><br></label>
+        
 
-        <label for="bposition">Business Position:</label><br>
-        <input type="text" pattern=".{7,}" id="bposition" name="bposition" value="" required><br><br>
+        <label for="bposition">Business Position:<input type="text" pattern=".{7,}" id="bposition" name="bposition" value="" required><br></label><br>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" value="" required><br><br>
+        <label for="email">Email: <br><input type="email" id="email" name="email" value="" required><br></label><br>
 
         <label for="phone">Phone Number:</label><br>
         <input type="tel" id="phone" name="phone" value="" required><br><br>
@@ -63,12 +61,19 @@
         <input type="radio" id="np" name="membership" value="NP Membership" required>
         <label for="np">NP Membership</label><br>
         <input type="radio" id="bronze" name="membership" value="Bronze Membership" required>
-        <label for="bronze">Bronze Membership</label><br><br>
+        <label for="bronze">Bronze Membership</label><br>
+        <input type="radio" id="silver" name="membership" value="Silver Membership" required>
+        <label for="silver">Silver Membership</label><br>
+        <input type="radio" id="gold" name="membership" value="Gold Membership" required>
+        <label for="gold">Gold Membership</label><br><br>
+
+        <label for="bdescription">Business Description:</label><br>
+        <textarea id="bdescription" name="bdescription" value=""></textarea></textarea><br><br>
+
+        <label for="date">This is the date and time</label><br><br>
 
         <input type="submit" value="Submit">
         </form> 
-
-        <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
 
     </main>
 <footer>
