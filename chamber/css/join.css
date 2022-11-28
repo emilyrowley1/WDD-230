@@ -1,0 +1,14 @@
+main {
+    display: block;
+    max-width: 25rem;
+    margin: auto;
+}
+
+main div {
+    text-align: center;
+}
+
+form {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
