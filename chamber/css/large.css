@@ -75,6 +75,10 @@
         height:40px;
         margin: 5px;
     }
+
+    #selected a{
+        background-color: #add681;
+    }
     
       /* Styling for the body */
     main div {
