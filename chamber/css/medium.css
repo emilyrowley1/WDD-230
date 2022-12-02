@@ -8,17 +8,16 @@ body {
 /* Styling for the header */
 header {
     display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    grid-template-areas: 
+    "logo title social nav"
+    "date date date date";
     padding: 0;
     align-items: center;
     text-align: left;
     background-color: #7ca453;
-    grid-template-columns: 1fr 3fr 1fr 1fr;
 }
-header #title {
-    background-color: blue;
-    column-span: none;
-    width: 200px;
-}
+
 h1 {
     margin-top: 0;
     font-size: 25pt;
@@ -26,7 +25,8 @@ h1 {
 
 .socialMedia {
     text-align: right;
-    grid-column: 3;
+    grid-area: social;
+    
 }
 nav a {
     text-decoration: none;
@@ -53,6 +53,7 @@ nav a {
     text-align: right;
     font-size: x-large;
     margin-right: .75em;
+    grid-area: nav;
 }
 .navigation {
     display: none;
@@ -74,6 +75,9 @@ nav a {
 }
 .socialMedia img{
     height:30px;
+}
+header h2 {
+    font-size: 15pt;
 }
 
 
@@ -123,6 +127,7 @@ main div {
     margin: .5em;
     text-align: center;
 }
+
 
 /* Styling for the footer */
 #logo {

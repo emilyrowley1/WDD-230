@@ -1,3 +1,10 @@
+.navigation div {
+    text-align: left;
+}
+.navigation div:first-child {
+    display: block;
+}
+
 main div{
     /* display: flex; */
     min-width: none;

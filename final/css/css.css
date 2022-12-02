@@ -1,0 +1,40 @@
+body {
+    font-family: 'Cinzel', serif;
+    display: block;
+    background-color: #ffffff; 
+}
+header{
+    background-color: #FAEDCD;
+    margin: 0px;
+}
+header h2 {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+nav {
+    background-color: #b58e67;
+}
+footer{
+    background-color: #ccd5ae;
+    /* background-color: #FAEDCD; */
+}
+h1{
+    margin: 0px;
+}
+h2{
+    margin: 0px;
+}
+h3{
+    margin: 0px;
+}
+h4 {
+    margin: 0px;
+}
+p {
+    margin: 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+a {
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+}
