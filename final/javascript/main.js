@@ -4,9 +4,6 @@ function toggleMenu() {
         const nav = document.querySelector('.navigation');
         nav.classList.toggle("responsive");
     })
-
-    const fakeNav = document.createAttribute("nav");
-    document.querySelector("nav").appendChild(fakeNav)
 }
 
 toggleMenu();
