@@ -1,0 +1,34 @@
+@media screen and (min-width: 980px){
+   #menu{
+    display: none;
+   }
+   #fakeNav{
+    display: none;
+   }
+
+   nav {
+    background-color: blue;
+   }
+
+   .navigation{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .navigation a h3{
+        padding: 0rem 2rem;
+        text-align: center;
+   }
+
+   header img {
+    max-width: 190px;
+   }
+   header h1 {
+    font-size: 50pt;
+   }
+   header h2 {
+    font-size: 30pt;
+   }
+   .services {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
+}

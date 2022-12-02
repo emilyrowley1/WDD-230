@@ -1,0 +1,41 @@
+@media screen and (min-width: 600px){
+/* styling for the header */
+#fakeNav {
+    padding: 1rem;
+}
+header img {
+    max-width: 150px;
+    margin-left: 1.5rem;
+}
+#menu {
+    font-size:x-large;
+    margin: 2rem;
+}
+h1 {
+    font-size: 40pt;
+}
+h2 {
+    font-size: 20pt;
+}
+button {
+    display: none;
+}
+.missionStatement{
+    background-color: #ccd5ae;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+main img {
+    max-width:50%;
+    max-height: 50%;
+}
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.spotlight {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+}

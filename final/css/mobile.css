@@ -1,0 +1,118 @@
+body {
+    font-family: 'Cinzel', serif;
+    display: block;
+    background-color: #ffffff; 
+}
+a {
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+}
+/* Styling for the header */
+header{
+    background-color: #FAEDCD;
+    margin: 0px;
+    /* padding: 1rem; */
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+    "logo title menu"
+    "nav nav nav";
+}
+.title {
+    padding: 1rem;
+}
+header h2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: right;
+    margin: 0px;
+}
+header h1 {
+    margin: 0px;
+}
+header h3 {
+    margin: 0px;
+}
+header div:first-of-type {
+    grid-area: title;
+    text-align: center;
+}
+.navigation {
+    background-color: #b58e67;
+    grid-area: nav;
+}
+#menu {
+    grid-area: menu;
+    margin: 1rem 1rem 0rem 0rem;
+    text-align: right;
+}
+header img {
+    position: absolute;
+    max-width: 100px;
+    margin: 1rem;
+}
+/* Styling for the body */
+main {
+    margin: 0px;
+    text-align: center;
+}
+main div {
+    background-color: #e9edc9;
+    margin: .5rem;
+    background-image: url("images/placeholder.jpg");
+}
+main img {
+    height: 100%;
+    margin: 1rem;
+    object-fit: cover;
+}
+button {
+    font-family: 'Cinzel', serif;
+    background-color: #FAEDCD;
+    border: none;
+    height: 90px;
+}
+main h2 {
+    margin: 0px;
+    padding: .5rem;
+}
+.spotlight {
+    background-color: #ccd5ae;
+}
+section {
+    padding: .5rem;
+}
+p {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: left;
+    margin: 0rem;
+}
+/* styling for the menu */
+.navigation {
+    display: none;
+}
+#fakeNav {
+    display: block;
+    color: #b58e67;
+}
+.navigation.responsive {
+    display: block;
+    position:absolute;
+    right: 1em;
+    top: 4em;
+    width: 120px;
+    height: fit-content;
+}
+.navigation.responsive a {
+    padding: 0rem;
+    margin: 1rem;
+    right: 1em;
+    font-size: 10pt;
+}
+.navigation.responsive :hover {
+    background-color: #f5f5dc;
+}
+/* styling for the footer */
+footer{
+    background-color:#FAEDCD;
+}
