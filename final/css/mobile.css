@@ -93,19 +93,22 @@ p {
     max-width: 100%;
     max-height: 100%;
 }
-/* .pictures {
+.service {
     position: relative;
-} */
-.pictures img{
+}
+.services img {
     margin: 0px;
     padding: 0px;
     max-width: 100%;
-    max-height: 90%;
-    /* position: absolute; */
+    max-height: 100%;
+    opacity: 50%;
 }
-#weddings {
-    background-color: blue;
-    z-index: 9;
+.service div {
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 /* styling for the menu */
 .navigation {
@@ -131,6 +134,9 @@ p {
 }
 .navigation.responsive :hover {
     background-color: #f5f5dc;
+}
+.services button {
+    display: none;
 }
 /* styling for the footer */
 footer{
