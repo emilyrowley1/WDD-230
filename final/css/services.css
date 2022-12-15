@@ -1,0 +1,36 @@
+main {
+    background-color: #fffbe1;
+}
+main section {
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 4rem;
+    margin-bottom: 6rem;
+}
+#weddings {
+    /* The image used */
+    background-image: url("../images/wedding.webp");
+   
+}
+#endowments {
+    /* The image used */
+    background-image: url("../images/endowment.webp");    
+}
+#patrons {
+    /* The image used */
+    background-image: url("../images/patrons.webp");    
+}
+#workers {
+    /* The image used */
+    background-image: url("../images/workers.webp");    
+}
+main h2 {
+    background-color: #cdd5ae;
+    padding: 4rem;
+}
+main p {
+    margin: 2rem;
+}

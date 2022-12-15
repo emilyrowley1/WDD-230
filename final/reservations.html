@@ -12,11 +12,10 @@
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.11.0/build/cssnormalize/cssnormalize-min.css">
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/locations.css">
     <link rel="stylesheet" href="css/large.css">
-    <link rel="stylesheet" href="https://js.arcgis.com/4.24/esri/themes/light/main.css">
+    <link rel="stylesheet" href="css/reservations.css">
 
-    <title>Temple Inn & Suites Locations</title>
+    <title>Temple Inn & Suites Planning Document</title>
 </head>
 <body>
     <header>
@@ -28,14 +27,42 @@
         <div id="menu">&#9776;</div>
         <nav class="navigation">
             <a href="index.html"><h3>Home</h3></a>
-            <a href="locations.html"><h3 class="current">Locations</h3></a>
-            <a href="reservations.html"><h3>Reservations</h3></a>
+            <a href="locations.html"><h3>Locations</h3></a>
+            <a href="reservations.html"><h3 class="current">Reservations</h3></a>
             <a href="services.html"><h3>Services</h3></a>
         </nav>
         <div class="navigation" id="fakeNav">fakeNav</div>
     </header>
     <main>
-        <section id="temples"></section>
+        <form action="reserve">
+            <label for="fname">First name: <br><input type="text" id="fname" name="fname" value="" required></label>
+        
+            <label for="lname">Last name: <br><input type="text" id="lname" name="lname" value="" required></label>
+
+            <label for="email">Email: <br><input type="email" id="email" name="email" value="" required></label>
+
+            <label for="phone">Phone Number:<br><input type="tel" id="phone" name="phone" value="" pattern="[0-9]{7, 11}"></label>
+
+            <label for="num">Number of Rooms:*<br></label>
+            <select name="num" id="num" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <label for="num">Location:<br><select name="location" id="location" required>
+            </select></label>
+
+            <label for="start">Start Date:<br><input type="date" name="start" id="start"></label>
+
+            <label for="end">End Date:<br><input type="date" name="end" id="end" min="start"></label>
+            
+            <input type="submit" value="Reserve">
+        </form>
+
+        <p>*For reservations larger than 20 guests or 5 rooms please call to make a reservation +1(811) 354-7763</p>
     </main>
     <footer>
         <section class="contact">
@@ -51,8 +78,7 @@
             <p> WDD 230 Final Project </p>
         </section>
     </footer>
+    <script src="javascript/reservations.js"></script>
     <script src="javascript/main.js"></script>
-      <script src="javascript/locations.js">
-    </script>
 </body>
 </html>

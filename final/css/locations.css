@@ -1,12 +1,50 @@
-html, body, main, #viewDiv {
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    width: 100%;
+#temples{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ccd5ae;
+}
+main section section {
+    max-width: 600px;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: #e9edc9;
+
+}
+main section img{
+    width: 75%;
+    height: 75%;
+}
+section p {
+    padding: 1rem;
+}
+section button {
+    max-height: 2rem;
 }
 
-main div{
-    background-color: transparent;
-    margin: 3rem;
-    margin: auto;
+.weather {
+    border: #b58e67 solid 1rem;
+}
+.weather div {
+    margin: 0px;
+}
+
+.weather img {
+    margin: 0px;
+}
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.reservation{
+    border: #b58e67 solid 1rem;
+
+}
+button {
+    margin: 1rem;
+}
+@media screen and (max-width: 615px) {
+    .weather img {
+        display: none;
+    }
 }

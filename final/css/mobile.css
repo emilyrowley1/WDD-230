@@ -141,4 +141,11 @@ p {
 /* styling for the footer */
 footer{
     background-color:#FAEDCD;
+    text-align: center;
+}
+footer section p{
+    text-align: center;
+}
+footer img {
+    max-width: 30px;
 }

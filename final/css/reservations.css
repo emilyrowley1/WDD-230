@@ -1,0 +1,9 @@
+label {
+    display: block;
+    margin: 1rem;
+}
+form {
+    background-color: #ccd5ae;
+    margin: 2rem;
+    padding: 2rem;
+}

@@ -1,0 +1,35 @@
+[
+      {
+        "name": "Manhattan, NY",
+        "shortName": "manhattan",
+        "lat": "40.7730368",
+        "long": "-73.981628",
+        "description": "We love the city! To help saints traveling long hours we have made accommodations in the building directly behind the temple. We get that the city is busy and expensive and want to provide affordable and restful accommodations to all who come!",
+        "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manhattan-new-york/800x500/manhattan-temple-lds-903670-wallpaper.jpg"
+      },
+      {
+        "name": "Washington DC",
+        "shortName": "dc",
+        "lat": "39.0149299",
+        "long": "-77.0686708",
+        "description": "Located just across the street from the temple this hotel as an incredible view of one of the most picturesque temples of all time! ",
+        "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/800x500/washington_dc_temple-exterior-4.jpeg"
+      },
+      {
+        "name": "San Jose, Costa Rica",
+        "shortName": "costarica",
+        "lat": "9.9864486",
+        "long": "-84.1848243",
+        "description": "",
+        "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/san-jose-costa-rica/800x500/san-jose-costa-rica-temple-lds-1006824-wallpaper.jpg"
+      },
+      {
+        "name": "Panama City, Panama",
+        "shortName": "panama",
+        "lat": "8.991312322680969",
+        "long": "-79.57067531647559",
+        "description": "Located just a 10 minute walk from the temple with a stunning view of the Panama Canal, this hotel is hard to beat!",
+        "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/panama-city-panama/400x250/panama-city-panama-temple-1082087-wallpaper.jpg"
+      }
+    ]
+  
